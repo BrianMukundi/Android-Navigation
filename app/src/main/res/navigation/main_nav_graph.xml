@@ -7,32 +7,24 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.navigation_1.HomeFragment"
+        android:name="com.example.navigation_app1.homeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_homeFragment_to_settingsFragment"
-            app:destination="@id/settingsFragment" />
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
         <action
-            android:id="@+id/action_homeFragment_to_studentsFragment"
-            app:destination="@id/studentsFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_profilesFragment"
-            app:destination="@id/profilesFragment" />
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
     <fragment
-        android:id="@+id/profilesFragment"
-        android:name="com.example.navigation_1.ProfilesFragment"
-        android:label="fragment_profiles"
-        tools:layout="@layout/fragment_profiles" />
+        android:id="@+id/profileFragment"
+        android:name="com.example.navigation_app1.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
     <fragment
-        android:id="@+id/settingsFragment"
-        android:name="com.example.navigation_1.SettingsFragment"
-        android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" />
-    <fragment
-        android:id="@+id/studentsFragment"
-        android:name="com.example.navigation_1.StudentsFragment"
-        android:label="fragment_students"
-        tools:layout="@layout/fragment_students" />
+        android:id="@+id/settingFragment"
+        android:name="com.example.navigation_app1.settingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
 </navigation>

@@ -1,13 +1,11 @@
 <resources>
-    <string name="app_name">navigation_1</string>
-    <string name="main_home">Home</string>
-    <string name="main_profiles">Profiles</string>
-    <string name="menu_settings">Settings</string>
-    <string name="main_students">Students</string>
+    <string name="app_name">navigation_app1</string>
+    <string name="home_menu">Home</string>
+    <string name="home_profile">Profile</string>
+    <string name="setting_menu">Setting</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="fragment_home">Home</string>
-    <string name="fragment_profiles">Profiles</string>
-    <string name="fragment_settings">Settings</string>
-    <string name="fragment_students">Students</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
 </resources>

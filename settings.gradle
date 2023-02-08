@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "navigation_1"
+rootProject.name = "navigation_app1"
 include ':app'

@@ -1,4 +1,4 @@
-package com.example.navigation_1
+package com.example.navigation_app1
 
 
 import android.os.Bundle
@@ -14,11 +14,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val navHostFragment = supportFragmentManager
-            .findFragmentById(R.id.ournavhost) as NavHostFragment
+            .findFragmentById(R.id.fragmentContainerView) as NavHostFragment
 
         val navController = navHostFragment.navController
-
-        val menu = findViewById<BottomNavigationView>(R.id.bottom_menu)
+        val menu = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         menu.setupWithNavController(navController)
     }
 }
